@@ -75,7 +75,7 @@ inline void PostEffect(RaymarchInfo ray, inout PostEffectOutput o)
 {
     o.Emission += tex2D(_Grid, ray.endPos.xy * _Grid_ST.xy + _Grid_ST.zw);
     float ao = 1.0 - 1.0 * ray.loop / ray.maxLoop;
-    o.Occlusion *= ao;
+   o.Occlusion *= ao;
     o.Emission *= ao;
 }
 // @endblock

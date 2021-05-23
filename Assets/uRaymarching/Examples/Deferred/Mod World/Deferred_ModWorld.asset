@@ -19,7 +19,7 @@ MonoBehaviour:
   - key: Name
     value: Deffered_ModWorld
   - key: RaymarchingShaderDirectory
-    value: Assets/uRaymarching/Shaders/Include/Legacy
+    value: Assets\uRaymarching\Shaders\Include\Legacy
   - key: Culling
     value: Back
   - key: ObjectShape
@@ -76,7 +76,7 @@ MonoBehaviour:
       * _Grid_ST.xy + _Grid_ST.zw);\n    float ao = 1.0 - 1.0 * ray.loop / ray.maxLoop;\n  
       o.Occlusion *= ao;\n    o.Emission *= ao;\n}"
     folded: 1
-  constants: {fileID: 11400000, guid: b54b57bcc672e49638fe9b2da609c4df, type: 2}
+  constants: {fileID: 11400000, guid: 9c8b2f5a7a56c4e21bee7ca4ccfc6640, type: 2}
   basicFolded: 1
   conditionsFolded: 1
   variablesFolded: 1

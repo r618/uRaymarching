@@ -1,17 +1,5 @@
 {
   "dependencies": {
-    "com.unity.2d.sprite": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
-    },
-    "com.unity.2d.tilemap": {
-      "version": "1.0.0",
-      "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
-    },
     "com.unity.collab-proxy": {
       "version": "1.2.16",
       "depth": 0,
@@ -19,35 +7,12 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.ext.nunit": {
-      "version": "1.0.0",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.ide.rider": {
-      "version": "1.1.4",
+    "com.unity.postprocessing": {
+      "version": "3.1.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.test-framework": "1.1.1"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.ide.vscode": {
-      "version": "1.2.1",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.multiplayer-hlapi": {
-      "version": "1.0.6",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "nuget.mono-cecil": "0.1.6-preview"
+        "com.unity.modules.physics": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -79,22 +44,16 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.test-framework": {
-      "version": "1.1.14",
+    "com.unity.timeline": {
+      "version": "1.2.18",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.ext.nunit": "1.0.0",
-        "com.unity.modules.imgui": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0"
+        "com.unity.modules.director": "1.0.0",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0"
       },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.timeline": {
-      "version": "1.2.6",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.ugui": {
@@ -102,21 +61,18 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.modules.ui": "1.0.0"
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
       }
     },
     "com.unity.xr.legacyinputhelpers": {
-      "version": "2.1.4",
+      "version": "2.1.7",
       "depth": 0,
       "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "nuget.mono-cecil": {
-      "version": "0.1.6-preview",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.unity.modules.vr": "1.0.0",
+        "com.unity.modules.xr": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.modules.ai": {
